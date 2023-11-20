@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 2px solid red;
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+h1{
+    color: gainsboro;
+}
+.first{
+    width: 30vw;
+    height: 100%;
+    background-color: rgb(212, 147, 27);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+p{
+    color: gainsboro;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.second{
+    width: 30vw;
+    height: 100%;
+    background-color: rgb(61, 118, 141);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.third{
+    width: 30vw;
+    height: 100%;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    
+}
+.id1,.id2,.id3{
+    height: 50%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 40px;
+}
+.id4,.id5,.id6{
+    height: 50%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 40px;
+}
